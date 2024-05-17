@@ -29,7 +29,7 @@
                 formData.append('currentChunk', currentChunk);
                 formData.append('fileName', file.name);
 
-                fetch('UploadIt.php', {
+                fetch('ChunkIt.php', {
                     method: 'POST',
                     body: formData
                 })
